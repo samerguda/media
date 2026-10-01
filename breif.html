@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samer Alsaadni - Professional Profile</title>
+    <style>
+        :root {
+            --bg-color: #f4f6f8;
+            --card-bg: #ffffff;
+            --text-color: #333333;
+            --primary-color: #0056b3;
+            --success-color: #28a745;
+            --border-color: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card.rtl {
+            direction: rtl;
+            text-align: right;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 8px;
+            font-size: 1.25rem;
+        }
+
+        .content {
+            font-size: 0.95rem;
+            white-space: pre-line;
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 5px;
+            margin-bottom: 15px;
+        }
+
+        .copy-btn {
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+            width: 100%;
+        }
+
+        .copy-btn:hover {
+            background-color: #004085;
+        }
+
+        .copy-btn.copied {
+            background-color: var(--success-color);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Samer Alsaadni - Professional Profile</h1>
+    <div class="grid">
+
+        <!-- Dutch -->
+        <div class="card">
+            <div>
+                <h2>Nederlands (Dutch)</h2>
+                <div class="content" id="nl-text">Professioneel Profiel
+
+Senior Werktuigbouwkundig Ingenieur (Mechanical Engineer) met meer dan 15 jaar ervaring in mechanische en MEP-projecten, waaronder HVAC, sanitair, brandbestrijding, pompstations, leidingverbindingssystemen, installatie, inbedrijfstelling, werfsupervisie en projectcoördinatie. Ervaren in het beoordelen van uitvoeringstekeningen (shop drawings), materiaalingaven en werkmethodes (method statements), het aansturen van onderaannemers, werfinspecties en het oplossen van technische problemen.
+
+Momenteel gevestigd in Harelbeke, België, en beschikbaar voor werk. Ik sta open voor zowel engineering- als technisch/administratieve functies om mijn carrière in België voort te zetten.
+
+Mogelijke Functies / Jobs:
+1. Mechanical Engineer
+2. Senior Mechanical Engineer
+3. MEP Engineer
+4. HVAC Engineer
+5. HVAC Werfingenieur
+6. Mechanisch Werfingenieur
+7. MEP Werfsupervisor
+8. HVAC Supervisor
+9. Mechanisch Supervisor
+10. MEP Coördinator
+11. Mechanisch Coördinator
+12. HVAC Projectcoördinator
+13. Werfleider / Site Manager – Mechanisch / MEP
+14. Projectingenieur – Mechanisch / MEP
+15. Technisch Ingenieur
+16. Technisch Coördinator
+17. Mechanisch Inspecteur
+18. HVAC Inspecteur
+19. QA/QC Mechanisch Inspecteur
+20. Piping Engineer (Leidinggevend Ingenieur)
+21. Piping Werfingenieur
+22. Sanitair Ingenieur / Plumbing Engineer
+23. Brandbeveiligingsingenieur / Fire Fighting Engineer
+24. CAD Ingenieur / CAD Ontwerper
+25. AutoCAD Tekenaar
+26. Revit MEP Technicus / Modelleur
+27. MEP Ontwerpassistent
+28. Ingenieur Technische Dienst / Bureau
+29. Projectadministratie / Assistent Technische Dienst
+30. Engineering Assistent
+
+Computervaardigheden
+AutoCAD, Revit MEP, HTML, CSS, Bootstrap, JavaScript en basis Python.
+
+Talen kennis
+Arabisch – Moedertaal
+Engels – Vloeiend
+Nederlands – A2
+Frans – A2
+Spaans – A2</div>
+            </div>
+            <button class="copy-btn" onclick="copyText('nl-text', this)">نسخ النص الهولندي</button>
+        </div>
+
+        <!-- English -->
+        <div class="card">
+            <div>
+                <h2>English</h2>
+                <div class="content" id="en-text">Professional Profile
+
+Senior Mechanical Engineer with over 15 years of experience in mechanical and MEP projects, including HVAC, plumbing, firefighting, pumping stations, piping systems, installation, commissioning, site supervision and project coordination. Experienced in reviewing shop drawings, material submittals and method statements, managing subcontractors, site inspections and resolving technical issues.
+
+I am currently based in Harelbeke, Belgium, and available for work. I am open to both engineering and technical/office-based positions while continuing my career in Belgium.
+
+Positions / Jobs I Can Do:
+1. Mechanical Engineer
+2. Senior Mechanical Engineer
+3. MEP Engineer
+4. HVAC Engineer
+5. HVAC Site Engineer
+6. Mechanical Site Engineer
+7. MEP Site Supervisor
+8. HVAC Supervisor
+9. Mechanical Supervisor
+10. MEP Coordinator
+11. Mechanical Coordinator
+12. HVAC Project Coordinator
+13. Site Manager – Mechanical / MEP
+14. Project Engineer – Mechanical / MEP
+15. Technical Engineer
+16. Technical Coordinator
+17. Mechanical Inspector
+18. HVAC Inspector
+19. QA/QC Mechanical Inspector
+20. Piping Engineer
+21. Piping Site Engineer
+22. Plumbing Engineer
+23. Fire Fighting Engineer
+24. CAD Engineer / CAD Designer
+25. AutoCAD Draftsman
+26. Revit MEP Technician / Modeler
+27. MEP Design Assistant
+28. Technical Office Engineer
+29. Project Administration / Technical Office Assistant
+30. Engineering Assistant
+
+Computer / Digital Skills
+AutoCAD, Revit MEP, HTML, CSS, Bootstrap, JavaScript and basic Python.
+
+Languages
+Arabic – Native
+English – Fluent
+Dutch – A2
+French – A2
+Spanish – A2</div>
+            </div>
+            <button class="copy-btn" onclick="copyText('en-text', this)">نسخ النص الإنجليزي</button>
+        </div>
+
+        <!-- Arabic -->
+        <div class="card rtl">
+            <div>
+                <h2>العربية (Arabic)</h2>
+                <div class="content" id="ar-text">الملف الشخصي المهني
+
+مهندس ميكانيكا أول بخبرة تتجاوز 15 عاماً في مشاريع الميكانيكا والأعمال الكهروميكانيكية (MEP)، بما في ذلك أنظمة التكييف والتبريد (HVAC)، السباكة والصرف، مكافحة الحريق، محطات الضخ، شبكات الأنابيب، التركيبات، التشغيل والإختبار، الإشراف على المواقع، والتنسيق الهندسي. خبير في مراجعة المخططات التنفيذية (Shop Drawings)، اعتماد المواد، بيانات أسلوب العمل (Method Statements)، إدارة مقاولي الباطن، التفتيش على المواقع، وحل المشكلات الفنية.
+
+أقيم حالياً في هاريلبيك (Harelbeke)، بلجيكا ومتاح للعمل. أرحب بالفرص المتاحة في المجالات الهندسية أو الوظائف الفنية والكتبية لمواصلة مسيرتي المهنية في بلجيكا.
+
+الوظائف والمسميات التي يمكنني شغلها:
+1. مهندس ميكانيكا (Mechanical Engineer)
+2. مهندس ميكانيكا أول (Senior Mechanical Engineer)
+3. مهندس كهروميكانيك (MEP Engineer)
+4. مهندس تكييف وتبريد (HVAC Engineer)
+5. مهندس موقع تكييف وتبريد (HVAC Site Engineer)
+6. مهندس موقع ميكانيكا (Mechanical Site Engineer)
+7. مشرف موقع كهروميكانيك (MEP Site Supervisor)
+8. مشرف تكييف وتبريد (HVAC Supervisor)
+9. مشرف ميكانيكا (Mechanical Supervisor)
+10. منسق كهروميكانيك (MEP Coordinator)
+11. منسق ميكانيكا (Mechanical Coordinator)
+12. منسق مشاريع تكييف وتبريد (HVAC Project Coordinator)
+13. مدير موقع – ميكانيكا / MEP
+14. مهندس مشروع – ميكانيكا / MEP
+15. مهندس فني (Technical Engineer)
+16. منسق فني (Technical Coordinator)
+17. مفتش ميكانيكا (Mechanical Inspector)
+18. مفتش تكييف وتبريد (HVAC Inspector)
+19. مفتش جودة ميكانيكا (QA/QC Mechanical Inspector)
+20. مهندس أنابيب وشبكات (Piping Engineer)
+21. مهندس موقع أنابيب (Piping Site Engineer)
+22. مهندس سباكة وصرف صحي (Plumbing Engineer)
+23. مهندس مكافحة حريق (Fire Fighting Engineer)
+24. مهندس مصمم كاد (CAD Engineer / Designer)
+25. رسام أوتوكاد (AutoCAD Draftsman)
+26. فني / رسام ميكانيك ريفيت (Revit MEP Modeler)
+27. مساعد تصميم كهروميكانيك (MEP Design Assistant)
+28. مهندس مكتب فني (Technical Office Engineer)
+29. مساعد مكتب فني / إدارة مشاريع
+30. مساعد مهندس (Engineering Assistant)
+
+المهارات البرمجية والحاسوبية
+AutoCAD, Revit MEP, HTML, CSS, Bootstrap, JavaScript, Python (أساسيات).
+
+اللغات
+العربية – اللغة الأم
+الإنجليزية – طليق
+الهولندية – مستوى A2
+الفرنسية – مستوى A2
+الإسبانية – مستوى A2</div>
+            </div>
+            <button class="copy-btn" onclick="copyText('ar-text', this)">نسخ النص العربي</button>
+        </div>
+
+        <!-- French -->
+        <div class="card">
+            <div>
+                <h2>Français (French)</h2>
+                <div class="content" id="fr-text">Profil Professionnel
+
+Ingénieur Mécanicien Senior avec plus de 15 ans d'expérience dans les projets mécaniques et CVC/MEP, incluant le CVC (HVAC), la plomberie, la protection contre l'incendie, les stations de pompage, les systèmes de tuyauterie, l'installation, la mise en service, la supervision de chantier et la coordination de projets. Expérimenté dans la révision des plans d'exécution (shop drawings), la soumission de matériaux, les fiches méthodologiques, la gestion des sous-traitants, les inspections sur site et la résolution de problèmes techniques.
+
+Actuellement basé à Harelbeke, Belgique, et disponible immédiatement. Je suis ouvert aux postes d'ingénierie ainsi qu'aux fonctions techniques ou de bureau pour poursuivre ma carrière en Belgique.
+
+Postes / Emplois ciblés :
+1. Ingénieur Mécanicien
+2. Ingénieur Mécanicien Senior
+3. Ingénieur MEP
+4. Ingénieur CVC / HVAC
+5. Ingénieur Chantier CVC
+6. Ingénieur Chantier Mécanique
+7. Supervisant de Chantier MEP
+8. Supervisant CVC
+9. Supervisant Mécanique
+10. Coordinateur MEP
+11. Coordinateur Mécanique
+12. Coordinateur de Projet CVC
+13. Conducteur de Travaux / Site Manager – Mécanique / MEP
+14. Ingénieur Projet – Mécanique / MEP
+15. Ingénieur Technique
+16. Coordinateur Technique
+17. Inspecteur Mécanique
+18. Inspecteur CVC
+19. Inspecteur QA/QC Mécanique
+20. Ingénieur Tuyauterie (Piping Engineer)
+21. Ingénieur Chantier Tuyauterie
+22. Ingénieur Plomberie / Sanitaire
+23. Ingénieur Protection Incendie
+24. Ingénieur / Concepteur CAO
+25. Dessinateur AutoCAD
+26. Technicien / Modélisateur Revit MEP
+27. Assistant Conception MEP
+28. Ingénieur Bureau Technique
+29. Assistant Bureau Technique / Administration de Projet
+30. Assistant Ingénieur
+
+Compétences Informatiques
+AutoCAD, Revit MEP, HTML, CSS, Bootstrap, JavaScript et bases en Python.
+
+Langues
+Arabe – Langue maternelle
+Anglais – Courant
+Néerlandais – A2
+Français – A2
+Espagnol – A2</div>
+            </div>
+            <button class="copy-btn" onclick="copyText('fr-text', this)">نسخ النص الفرنسي</button>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    function copyText(elementId, button) {
+        const textToCopy = document.getElementById(elementId).innerText;
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            const originalText = button.innerText;
+            button.innerText = 'تم النسخ بنجاح! ✓';
+            button.classList.add('copied');
+            
+            setTimeout(() => {
+                button.innerText = originalText;
+                button.classList.remove('copied');
+            }, 2000);
+        }).catch(err => {
+            console.error('فشل النسخ: ', err);
+        });
+    }
+</script>
+
+</body>
+</html>
